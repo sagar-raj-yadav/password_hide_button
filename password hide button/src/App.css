@@ -1,0 +1,37 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(140, 140, 240);
+}
+
+.input_box{
+  background: white;
+  width: 20%;
+  border-radius:10px; 
+  padding: 5px;
+  margin:300px auto;
+  display: flex;
+  align-items: center;
+}
+.input_box input{
+  width: 100%;
+  padding: 10px 0;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  color:black;      /* password black color me type hoga  */
+}
+
+.input_box img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+input[type=password]::-ms-reveal {
+  display: none;
+}
